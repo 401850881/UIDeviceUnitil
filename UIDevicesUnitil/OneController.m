@@ -7,7 +7,7 @@
 //
 
 #import "OneController.h"
-#import "UIDeviceUtils.h"
+#import "UIDeviceUnitis.h"
 @interface OneController ()
 
 @end
@@ -20,7 +20,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated{
-    UIDeviceUtils * utils = [UIDeviceUtils shareUtils];
+    UIDeviceUnitis * utils = [UIDeviceUnitis shareUtils];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,12 +29,12 @@
 }
 - (IBAction)paizhao:(id)sender {
     
-   [[UIDeviceUtils shareUtils] toTakePhoto:self complete:^(id obj, NSError *error) {
+   [[UIDeviceUnitis shareUtils] toTakePhoto:self complete:^(id obj, NSError *error) {
        UIImage * iamge = obj;
    }];
 }
 - (IBAction)getLocation:(id)sender {
-    [[UIDeviceUtils shareUtils] toGetLocationComplete:^(id obj, NSError *error) {
+    [[UIDeviceUnitis shareUtils] toGetLocationComplete:^(id obj, NSError *error) {
         
     }];
 }

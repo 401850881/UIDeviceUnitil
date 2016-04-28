@@ -6,11 +6,11 @@
 //  Copyright © 2016年 任晓雷. All rights reserved.
 //
 
-#import "UIDeviceUtils.h"
+#import "UIDeviceUnitis.h"
 #import <AVFoundation/AVFoundation.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <MediaPlayer/MediaPlayer.h>
-@interface UIDeviceUtils ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate, CLLocationManagerDelegate, AVCaptureMetadataOutputObjectsDelegate>
+@interface UIDeviceUnitis ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate, CLLocationManagerDelegate, AVCaptureMetadataOutputObjectsDelegate>
 @property (nonatomic, copy) Complete imageComplete;
 @property (nonatomic, copy) Complete scanComplete;
 @property (nonatomic, copy) Complete locationComplete;
@@ -29,11 +29,11 @@
 @property (nonatomic, strong)MPMoviePlayerViewController * moviePlayer;
 @end
 
-@implementation UIDeviceUtils
+@implementation UIDeviceUnitis
 
 #pragma mark - 拍照/获取照片
-+ (UIDeviceUtils *)shareUtils{
-    static UIDeviceUtils * deviceUtils = nil;
++ (UIDeviceUnitis *)shareUtils{
+    static UIDeviceUnitis * deviceUtils = nil;
     static dispatch_once_t once_t;
     dispatch_once(&once_t, ^{
         deviceUtils = [[self alloc] init];

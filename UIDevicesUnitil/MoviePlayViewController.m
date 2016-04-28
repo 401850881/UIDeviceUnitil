@@ -7,7 +7,7 @@
 //
 
 #import "MoviePlayViewController.h"
-#import "UIDeviceUtils.h"
+#import "UIDeviceUnitis.h"
 @interface MoviePlayViewController ()
 
 @end
@@ -19,7 +19,7 @@
     [self setNeedsStatusBarAppearanceUpdate];
     NSString * urlStr = [[NSBundle mainBundle] pathForResource:@"IMG_0003.MOV" ofType:nil];
     //CGRect rect = CGRectMake(100, 100, 200, 400);
-    [[UIDeviceUtils shareUtils] playMovieWithFileUrlString:urlStr onView:self isLandscape:YES complete:^(id obj, NSError *error) {
+    [[UIDeviceUnitis shareUtils] playMovieWithFileUrlString:urlStr onView:self isLandscape:YES complete:^(id obj, NSError *error) {
         [self dismissViewControllerAnimated:YES completion:nil];
     }];
     // Do any additional setup after loading the view.

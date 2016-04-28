@@ -7,7 +7,7 @@
 //
 
 #import "ScanViewController.h"
-#import "UIDeviceUtils.h"
+#import "UIDeviceUnitis.h"
 @interface ScanViewController ()
 
 @end
@@ -18,10 +18,11 @@
     [super viewDidLoad];
 
     dispatch_async(dispatch_get_main_queue(), ^{
-        [[UIDeviceUtils shareUtils] toScanningCodeOnController:self Complete:^(id obj, NSError *error) {
+        [[UIDeviceUnitis shareUtils] toScanningCodeOnController:self Complete:^(id obj, NSError *error) {
             
         }];
     });
+    //加载扫描需要一点点时间，根据微信的样式加个“loading”
     UIView * backView = [[UIView alloc] initWithFrame:self.view.bounds];
     backView.backgroundColor = [UIColor colorWithWhite:0 alpha:1];
     [self.view addSubview:backView];
@@ -30,7 +31,8 @@
     lable.text = @"加载中...";
     lable.textColor = [UIColor whiteColor];
     [backView addSubview:lable];
-    [[UIDeviceUtils shareUtils] presetQRCodeScanDeviceComplete:^(id obj, NSError *error) {
+    
+    [[UIDeviceUnitis shareUtils] presetQRCodeScanDeviceComplete:^(id obj, NSError *error) {
         [backView removeFromSuperview];
     }];
     

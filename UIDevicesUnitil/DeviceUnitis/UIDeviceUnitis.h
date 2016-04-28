@@ -15,8 +15,8 @@ typedef void(^Complete)(id obj, NSError * error);
 #define STRPhotosAlbum  @""
 #define STRPhotoLibrary @"请授权本App可以访问相册\n设置方式:手机设置->隐私->照片\n允许本App访问相册"
 
-@interface UIDeviceUtils : NSObject
-+ (UIDeviceUtils *)shareUtils;
+@interface UIDeviceUnitis : NSObject
++ (UIDeviceUnitis *)shareUtils;
 /**
  *  相册权限检测
  *
