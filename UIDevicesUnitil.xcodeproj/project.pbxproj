@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7020A3381CC4C91400DB06AA /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7020A3371CC4C91400DB06AA /* ScanViewController.m */; };
-		7020A33A1CC4D59C00DB06AA /* iconBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7020A3391CC4D59C00DB06AA /* iconBack@2x.png */; };
-		704B64301CCDBE8A001442A3 /* wanning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 704B642F1CCDBE8A001442A3 /* wanning.mp3 */; };
 		704B64331CCE124A001442A3 /* MoviePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704B64321CCE124A001442A3 /* MoviePlayViewController.m */; };
+		704B64491CD1ED44001442A3 /* iconBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 704B64451CD1ED44001442A3 /* iconBack@2x.png */; };
+		704B644A1CD1ED44001442A3 /* UIDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 704B64471CD1ED44001442A3 /* UIDeviceUtils.m */; };
+		704B644B1CD1ED44001442A3 /* wanning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 704B64481CD1ED44001442A3 /* wanning.mp3 */; };
 		70ED26781CB11D2D0096FB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED26771CB11D2D0096FB9D /* main.m */; };
 		70ED267B1CB11D2D0096FB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED267A1CB11D2D0096FB9D /* AppDelegate.m */; };
 		70ED267E1CB11D2D0096FB9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED267D1CB11D2D0096FB9D /* ViewController.m */; };
@@ -19,9 +20,7 @@
 		70ED26861CB11D2D0096FB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ED26841CB11D2D0096FB9D /* LaunchScreen.storyboard */; };
 		70ED26911CB11D2D0096FB9D /* UIDevicesUnitilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED26901CB11D2D0096FB9D /* UIDevicesUnitilTests.m */; };
 		70ED269C1CB11D2D0096FB9D /* UIDevicesUnitilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED269B1CB11D2D0096FB9D /* UIDevicesUnitilUITests.m */; };
-		70ED26AB1CB11D580096FB9D /* UIDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED26AA1CB11D580096FB9D /* UIDeviceUtils.m */; };
 		70ED26B11CB12F7B0096FB9D /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED26B01CB12F7B0096FB9D /* OneController.m */; };
-		70F6EC571CC8C319002069C3 /* IMG_0003.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 70F6EC561CC8C319002069C3 /* IMG_0003.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +43,12 @@
 /* Begin PBXFileReference section */
 		7020A3361CC4C91400DB06AA /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
 		7020A3371CC4C91400DB06AA /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
-		7020A3391CC4D59C00DB06AA /* iconBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBack@2x.png"; sourceTree = "<group>"; };
-		704B642F1CCDBE8A001442A3 /* wanning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wanning.mp3; sourceTree = "<group>"; };
 		704B64311CCE124A001442A3 /* MoviePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayViewController.h; sourceTree = "<group>"; };
 		704B64321CCE124A001442A3 /* MoviePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayViewController.m; sourceTree = "<group>"; };
+		704B64451CD1ED44001442A3 /* iconBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBack@2x.png"; sourceTree = "<group>"; };
+		704B64461CD1ED44001442A3 /* UIDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceUtils.h; sourceTree = "<group>"; };
+		704B64471CD1ED44001442A3 /* UIDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceUtils.m; sourceTree = "<group>"; };
+		704B64481CD1ED44001442A3 /* wanning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wanning.mp3; sourceTree = "<group>"; };
 		70ED26731CB11D2D0096FB9D /* UIDevicesUnitil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDevicesUnitil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70ED26771CB11D2D0096FB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70ED26791CB11D2D0096FB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,11 +65,8 @@
 		70ED26971CB11D2D0096FB9D /* UIDevicesUnitilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDevicesUnitilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70ED269B1CB11D2D0096FB9D /* UIDevicesUnitilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDevicesUnitilUITests.m; sourceTree = "<group>"; };
 		70ED269D1CB11D2D0096FB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70ED26A91CB11D580096FB9D /* UIDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceUtils.h; sourceTree = "<group>"; };
-		70ED26AA1CB11D580096FB9D /* UIDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceUtils.m; sourceTree = "<group>"; };
 		70ED26AF1CB12F7B0096FB9D /* OneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
 		70ED26B01CB12F7B0096FB9D /* OneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
-		70F6EC561CC8C319002069C3 /* IMG_0003.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0003.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		704B64441CD1ED44001442A3 /* DeviceUnitis */ = {
+			isa = PBXGroup;
+			children = (
+				704B64451CD1ED44001442A3 /* iconBack@2x.png */,
+				704B64461CD1ED44001442A3 /* UIDeviceUtils.h */,
+				704B64471CD1ED44001442A3 /* UIDeviceUtils.m */,
+				704B64481CD1ED44001442A3 /* wanning.mp3 */,
+			);
+			path = DeviceUnitis;
+			sourceTree = "<group>";
+		};
 		70ED266A1CB11D2D0096FB9D = {
 			isa = PBXGroup;
 			children = (
@@ -119,9 +128,7 @@
 		70ED26751CB11D2D0096FB9D /* UIDevicesUnitil */ = {
 			isa = PBXGroup;
 			children = (
-				70F6EC561CC8C319002069C3 /* IMG_0003.MOV */,
-				704B642F1CCDBE8A001442A3 /* wanning.mp3 */,
-				7020A3391CC4D59C00DB06AA /* iconBack@2x.png */,
+				704B64441CD1ED44001442A3 /* DeviceUnitis */,
 				70ED26791CB11D2D0096FB9D /* AppDelegate.h */,
 				70ED267A1CB11D2D0096FB9D /* AppDelegate.m */,
 				70ED267C1CB11D2D0096FB9D /* ViewController.h */,
@@ -132,8 +139,6 @@
 				704B64321CCE124A001442A3 /* MoviePlayViewController.m */,
 				7020A3361CC4C91400DB06AA /* ScanViewController.h */,
 				7020A3371CC4C91400DB06AA /* ScanViewController.m */,
-				70ED26A91CB11D580096FB9D /* UIDeviceUtils.h */,
-				70ED26AA1CB11D580096FB9D /* UIDeviceUtils.m */,
 				70ED267F1CB11D2D0096FB9D /* Main.storyboard */,
 				70ED26821CB11D2D0096FB9D /* Assets.xcassets */,
 				70ED26841CB11D2D0096FB9D /* LaunchScreen.storyboard */,
@@ -274,11 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				70ED26861CB11D2D0096FB9D /* LaunchScreen.storyboard in Resources */,
+				704B644B1CD1ED44001442A3 /* wanning.mp3 in Resources */,
 				70ED26831CB11D2D0096FB9D /* Assets.xcassets in Resources */,
-				7020A33A1CC4D59C00DB06AA /* iconBack@2x.png in Resources */,
+				704B64491CD1ED44001442A3 /* iconBack@2x.png in Resources */,
 				70ED26811CB11D2D0096FB9D /* Main.storyboard in Resources */,
-				70F6EC571CC8C319002069C3 /* IMG_0003.MOV in Resources */,
-				704B64301CCDBE8A001442A3 /* wanning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +309,7 @@
 			files = (
 				70ED267E1CB11D2D0096FB9D /* ViewController.m in Sources */,
 				7020A3381CC4C91400DB06AA /* ScanViewController.m in Sources */,
-				70ED26AB1CB11D580096FB9D /* UIDeviceUtils.m in Sources */,
+				704B644A1CD1ED44001442A3 /* UIDeviceUtils.m in Sources */,
 				70ED267B1CB11D2D0096FB9D /* AppDelegate.m in Sources */,
 				704B64331CCE124A001442A3 /* MoviePlayViewController.m in Sources */,
 				70ED26B11CB12F7B0096FB9D /* OneController.m in Sources */,
